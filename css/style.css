@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.content-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+}
+
+#content-logo {
+    font-size: 25px;
+    font-style: normal;
+    padding-left: 40px;
+    padding-top: 20px;
+    color: #73879c;
+}
+
+.container-search {
+    overflow: hidden;
+    padding-top: 20px;
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.container-search input#search {
+    width: 250px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    font-size: 18px;
+
+    color: black;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 15px;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+}
+
+#text {
+    padding: 15px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #73879c;
+}
+
+img {
+    max-width: 250px;
+    max-height: 150px;
+}
+p{
+    font-size: 15px;
+}
+
+.container-information {
+    margin: 0 autos;
+    max-width: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    color: #73879c;
+}
+
+.information-item-a {
+    box-sizing: border-box;
+    width: 438px;
+    height: 265px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+}
+
+#text-principal{
+    padding: 20PX;
+    padding-top: 10PX;
+    padding-left: 10px;
+    font-size: 20px;
+    font-style: italic; 
+}
+#perfil {
+    padding-top: 0px;
+    margin-left: 40px;
+    margin-right: 10px;
+
+}
+.contenedor{
+    padding: 10px;
+    padding-left: 25px;
+}
+.contenedor-1{
+display: flex;
+}
+.clasificacion{
+    padding: 20PX;
+    padding-top: 10PX;
+    padding-left: 10px;
+}
+.contenedor-2{
+    display: flex;
+
+}
+.address{
+    display: flex;
+    flex-wrap: wrap;
+   flex-direction: row;
+}
+#address-information{
+    padding-left: 10px;
+}
+#phone-number{
+    padding-left: 10px;
+}
+.phone{
+    display: flex;
+}
+#phone{
+    max-width: 15px;
+    max-height: 15px;   
+}
+#address{
+    max-width: 15px;
+    max-height: 15px;   
+}
+.button-container{
+ display: flex;  
+ max-width: 10px; 
+ max-height: 35px; 
+ padding:5px;
+ padding-left: 50px;
+}
